@@ -1,0 +1,141 @@
+:root {
+  --veryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+  --softRed: hsl(14, 88%, 65%);
+
+  /* Background gradient */
+  --softViolet: hsl(273, 75%, 66%);
+  --softBlue: hsl(240, 73%, 65%);
+
+  /*Text */
+
+  --veryDarkGreyishBlue: hsl(237, 12%, 33%);
+  --darkGreyishBlue: hsl(240, 6%, 50%);
+
+  /*Dividers */
+  --lightGreyishBlue: hsl(240, 5%, 91%);
+}
+html {
+  height: 100%;
+  background: linear-gradient(var(--softViolet), var(--softBlue));
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans';
+}
+
+.container {
+  margin: 9rem auto 1rem auto;
+  width: 300px;
+  background-color: white;
+  padding: 1rem 1rem 2.5rem 1rem;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 0 30px 60px -30px var(--veryDarkDesaturatedBlue);
+}
+.img-wrap {
+  position: absolute;
+  top: -105px;
+}
+.img2 {
+  display: none;
+}
+.shadow1 {
+  position: relative;
+  top: -100px;
+  right: -25px;
+}
+.shadow2 {
+  display: none;
+}
+.txt-wrap {
+  position: relative;
+  margin: 8rem 0.8rem 0 0.8rem;
+  text-align: center;
+  font-size: 12px;
+  color: var(--darkGreyishBlue);
+}
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--veryDarkDesaturatedBlue);
+  margin: 1rem 0;
+}
+
+.q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin: 1rem 0 0 0;
+}
+.q p:hover {
+  cursor: pointer;
+}
+.q:hover {
+  color: green;
+}
+.q3:hover,
+.q4:hover {
+  color: var(--softRed);
+}
+.a {
+  display: none;
+  text-align: left;
+  margin: 0 1rem 1rem 0;
+}
+
+/* show */
+.show {
+  font-weight: 700;
+  color: var(--veryDarkGreyishBlue);
+}
+.show img {
+  transform: rotate(180deg);
+}
+.show + p {
+  display: block;
+}
+/* remove */
+.remove {
+  font-weight: 400;
+  color: var(--darkGreyishBlue);
+}
+.remove img {
+  transform: rotate(0deg);
+}
+.remove + p {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding: 2rem 2rem 4% 20rem;
+    width: 38vw;
+    height: auto;
+    margin: 9rem auto 0 auto;
+  }
+  .img-wrap {
+    top: 20px;
+    left: -80px;
+  }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: block;
+  }
+  .shadow2 {
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: -10px;
+  }
+  .shadow1 {
+    display: none;
+  }
+  .txt-wrap {
+    margin: 5% 10% 0 30%;
+    text-align: left;
+  }
+}
