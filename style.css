@@ -15,7 +15,7 @@
   --lightGreyishBlue: hsl(240, 5%, 91%);
 }
 html {
-  height: 100%;
+  height: 120%;
   background: linear-gradient(var(--softViolet), var(--softBlue));
 }
 body {
