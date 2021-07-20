@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FAQ accordion card solution - GitHub](https://github.com/sunil-sharma-999/Frontend-Mentor-FAQ-accordion-card-solution/)
-- Live Site URL: [FAQ accordion card solution](https://sunil-sharma-999.github.io/Frontend-Mentor-FAQ-accordion-card-solution//)
+- Solution URL: [FAQ accordion card solution - GitHub](https://github.com/sunil-sharma-999/FAQ-accordion-card-solution/)
+- Live Site URL: [FAQ accordion card solution](https://sunil-sharma-999.github.io/FAQ-accordion-card-solution//)
 
 ## My process
 
